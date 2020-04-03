@@ -1,4 +1,9 @@
-my = Solution()
-n = 0
-ans = my.(n)
-print("ans", ans)
+knob_weight = 0.5
+input = 0.5
+goal_pred = 0.8
+
+pred = input * knob_weight
+
+error = (pred - goal_pred)**2  # cube error (quadratic error)
+
+print('error = %.03f' % error)
