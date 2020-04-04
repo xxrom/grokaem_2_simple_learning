@@ -2,11 +2,12 @@
   "name": "grokaem_2_simple_learning",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
-,
-  "nodemonConfig": { "delay": "1" },
-  "scripts": 
-  {
-    "dev": "nodemon --exec python3 main.py ./main.py" 
+  "license": "MIT",
+  "nodemonConfig": {
+    "delay": "1"
+  },
+  "scripts": {
+    "dev0": "nodemon --exec python3 0_calcError.py ./0_calcError.py",
+    "dev1": "nodemon --exec python3 1_learning_cold-hot.py ./1_learning_cold-hot.py"
   }
 }
